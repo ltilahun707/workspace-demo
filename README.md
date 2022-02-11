@@ -1,7 +1,7 @@
 # workspace-demo
 
 npm has a feature for managing multiple packages in mono repo using workspaces. 
-- 
+
 
 Workspaces are defined in package.json as follow 
 
