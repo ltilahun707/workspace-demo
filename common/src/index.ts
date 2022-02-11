@@ -1,0 +1,1 @@
+const someLib = () => console.log();

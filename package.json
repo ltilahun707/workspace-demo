@@ -1,0 +1,16 @@
+{
+  "name": "workspace-demo",
+  "version": "1.0.0",
+  "description": "demo leran for mono repo",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npm run test --workspaces --if-present",
+    "build:all": "npm run build --workspaces --if-present",
+    "clean:all": "npm run clean --workspaces --if-present && rm -rf ./node_modules/"
+  },
+  "author": "lidiya",
+  "license": "ISC",
+  "workspaces": [
+    "common", "cdk", "app"
+  ]
+}

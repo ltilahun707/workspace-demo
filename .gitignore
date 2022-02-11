@@ -1,0 +1,24 @@
+*.js
+!jest.config.js
+!setEnvVars.js
+!webpack.config.js
+*.d.ts
+node_modules
+.DS_Store
+.pnpm-debug.log
+.scannerwork
+.envrc
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+coverage/
+dist/
+
+.vscode/
+# VSCode localhistory plugin
+.history/
+# IntelliJ
+.idea
+*.iml

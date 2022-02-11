@@ -1,0 +1,21 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"\" && exit 0",
+    "build": "tsc",
+    "clean": "rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.50.0",
+    "@aws-sdk/chunked-blob-reader": "*",
+    "@aws-sdk/protocol-http": "*",
+    "@aws-sdk/sha256-tree-hash": "*",
+    "@aws-sdk/types": "*",
+    "@aws-sdk/util-hex-encoding": "*"
+  },
+  "author": "lidiya",
+  "license": "ISC"
+}
