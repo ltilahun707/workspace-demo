@@ -3,7 +3,7 @@
 npm has a feature for managing multiple packages in mono repo using workspaces. 
 
 
-Workspaces are defined in package.json as follow 
+Workspaces are defined in the root package.json as follows:
 
 ```
 {
